@@ -30,10 +30,9 @@ After completing this assignment, you should be able to:
 
 Read the classes `Currency` and `Money` as well as their tests. Using the docstrings included, complete these classes. Upon completion, the tests in `money_test.py` should pass.
 
+To run the tests, make sure you have run `pipenv install` and `pipenv shell` and then run `pytest`.
+
 ### Advanced Mode
 
-Take a look at [this guide to Python's magic methods](https://rszalski.github.io/magicmethods/). Write tests for using the standard mathematical operators (`+`, `-`, `*`, `/`) on `Money` and then implement the methods needed.
+Take a look at [this guide to Python's magic methods](https://rszalski.github.io/magicmethods/). Write tests for using the standard mathematical operators (`+`, `-`, `*`, `/`) on `Money` and then implement the methods needed. To write these tests, look at the existing tests and modify them.
 
-### Another option
-
-Go back to yesterday's assignment and re-read it. Then implement a `CurrencyConverter` class that takes a list of rates, and has a `convert` method to convert money. Write tests for this class.
